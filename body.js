@@ -74,10 +74,14 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log('ID:', id);
   }
 });
-</script>
 
 
 
+
+  $( function() {
+    $( "#resizable" ).resizable();
+  } );
+ 
 
 
 
