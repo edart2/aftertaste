@@ -1,0 +1,26 @@
+
+  /* Set constant font sizes for all screen sizes */
+  .item-description {
+    font-size: 4vw; /* Adjust this value to set the font size */
+    max-width: 479px; /* Set the maximum width to 479px for larger screens */
+  }
+
+  .item-title {
+    font-size: 4.5vw; /* Adjust this value to set the font size */
+    max-width: 479px; /* Set the maximum width to 479px for larger screens */
+  }
+
+  .item-price {
+    font-size: 4.5vw; /* Adjust this value to set the font size */
+    max-width: 479px; /* Set the maximum width to 479px for larger screens */
+  }
+
+  /* Add media query for screens larger than 479px */
+  @media (min-width: 480px) {
+    .item-description,
+    .item-title,
+    .item-price {
+      font-size: 18px; /* Change this value to your desired font size for larger screens */
+      max-width: none; /* Remove the maximum width restriction for larger screens */
+    }
+  }
